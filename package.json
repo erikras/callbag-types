@@ -1,0 +1,32 @@
+{
+  "name": "callbag-types",
+  "version": "0.0.1",
+  "description": "Types for 👜 Callbags",
+  "main": "README.js",
+  "files": [
+    "README.js"
+  ],
+  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikras/callbag-types.git"
+  },
+  "scripts": {
+    "test": "flow check"
+  },
+  "bugs": {
+    "url": "https://github.com/erikras/callbag-types/issues"
+  },
+  "homepage": "https://github.com/erikras/callbag-types#readme",
+  "devDependencies": {
+    "flow-bin": "^0.74.0",
+    "glow": "^1.2.2"
+  },
+  "lint-staged": {
+    "*.{js*}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
